@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif; /* Gövde metin fontu ve türü */
+    background-color: #f4f4f4; /* Gövdenin arka plan rengi */
+    margin: 0; /* Gövdenin dış boşluğu */
+    padding: 0; /* Gövdenin iç boşluğu */
+}
+.container {
+    max-width: 600px; /* Konteynerin maksimum genişliği */
+    margin: 50px auto; /* Üst ve alttan boşluk ve hizalama */
+    padding: 20px; /* İçeriden her yöne bırakılan boşluk */
+    background-color: #fff; /* Konteynerin arka plan rengi */
+    border-radius: 8px; /* Kenarların yuvarlaklık yarıçapı */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Kutunun etrafında gölge efekti */
+}
+h2 {
+    text-align: center; /* Başlık metni konumu */
+    color: #333; /* Başlık metni rengi */
+}
+form {
+    display: flex; /* Form elemanları modeli */
+    flex-direction: column; /* Form elemanları yerleşimi */
+}
+input[type="text"],
+input[type="email"],
+textarea {  /* Metin, Metin Kutusu ve E-Posta ile ilgili düzenlemeler. */
+    padding: 10px; /* İç boşluk */
+    margin-bottom: 20px; /* Alt kısımdan boşluk */
+    border: 1px solid #ddd; /* Kenar çizgisi kalınlığı ve rengi */
+    border-radius: 4px; /* Kenarların yuvarlaklık yarıçapı */
+}
+button {
+    padding: 10px; /* Butonun iç boşluğu */
+    background-color: #3d88aa; /* Butonun arka plan rengi */
+    color: white; /* Buton metni rengi */
+    border: none; /* Butonun kenar çizgisi */
+    border-radius: 4px; /* Butonun kenarlarının yuvarlaklık yarıçapı */
+    cursor: pointer; /* Fare imleç türü */
+}
+button:hover {
+    background-color: #000000; /* Fare imleci butonun üzerine geldiğinde arka plan rengi */
+}
